@@ -11,6 +11,11 @@ app.use('/', router);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Handling 404
+app.use((req, res) => {
+  res.status(404).send({ message: 'Запрашиваемый ресурс не найден' });
+});
+
 app.listen(PORT, () => {
   //    console.log(`App listening ${PORT}`);
 });
