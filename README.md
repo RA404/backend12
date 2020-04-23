@@ -30,7 +30,7 @@
 # Project link 
 [https://github.com/RA404/backend12](https://github.com/RA404/backend12)
 
-## Version v0.0.1
+## Version v0.0.2
 v0.0.1 - первая версия проекта
 
 v0.0.2 - исправлены выявленные ошибки, проведен небольшой рефакторинг кода
